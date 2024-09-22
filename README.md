@@ -64,7 +64,7 @@ Centralização de Mudanças: Alterações no comportamento comum são feitas em
 
 # Desvantagens
 
-Fragilidade em Caso de Alterações : O Template Method centraliza o comportamento comum na superclasse, o que significa que qualquer mudança nessa lógica comum pode afetar todas as subclasses. Se o comportamento precisar ser ajustado em uma subclasse específica, isso pode quebrar a funcionalidade de outras subclasses inesperadamente.
+Fragilidade em Caso de Alterações : O Template Method centraliza o comportamento comum na superclasse, o que significa que qualquer mudança nessa lógica comum pode afetar todas as subclasses. isso pode quebrar a funcionalidade de outras subclasses inesperadamente.
 
 Excesso de Responsabilidade na Superclasse : A superclasse que define o método template pode acabar assumindo muitas responsabilidades, já que ela coordena o fluxo principal e precisa estar ciente de todos os detalhes comuns e específicos das subclasses.
 
