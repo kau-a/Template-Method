@@ -2,7 +2,7 @@
 
 Primeiro vamos entender o que é o template method
 
-O padrão template method  se trata de construir um "esqueleto" de um algoritmo de uma forma abstrata, e deixasse para que as classes concretas realizem as devidas implementações. O Template Method utiliza uma classe abstrata base, que vai encapsular o template do algoritmo em um método, para que as classes concretas possam herdar desta classe e realizar a implementação de determinados passos deste algoritmo
+O padrão template method  se trata de construir um "esqueleto" de um algoritmo de uma forma abstrata, e deixar para que as classes concretas realizem as devidas implementações. O Template Method utiliza uma classe abstrata base, que vai encapsular o template do algoritmo em um método, para que as classes concretas possam herdar desta classe e realizar a implementação de determinados passos deste algoritmo
 
 # Exemplos
 
